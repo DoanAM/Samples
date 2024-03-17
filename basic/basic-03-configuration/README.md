@@ -57,7 +57,7 @@ An example file can be found [here](config.properties). Clean, rebuild and run t
 passing the path to the config file:
 
 ```bash
-java -Dedc.fs.config=/etc/eclipse/dataspaceconnector/config.properties -jar basic/basic-03-configuration/build/libs/filesystem-config-connector.jar
+java -D"edc.fs.config=/etc/eclipse/dataspaceconnector/config.properties" -jar basic/basic-03-configuration/build/libs/filesystem-config-connector.jar
 ```
 
 Observing the log output we now see that the connector's REST API is exposed on port `9191` instead:
